@@ -1,0 +1,80 @@
+{
+  "uid" : "dd620b76b8cdb52e",
+  "name" : "test 1",
+  "fullName" : "Ios.test 1",
+  "historyId" : "3f771fb38c1b1168eabef5deb1e400c4",
+  "time" : {
+    "start" : 1653835292209,
+    "stop" : 1653835323271,
+    "duration" : 31062
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//*[@name=\"ic side menu\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect $(`//*[@name=\"ic side menu\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/sampleIosTest.js:15:54)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//*[@name=\"ic side menu\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+    "statusTrace" : "Error: Expect $(`//*[@name=\"ic side menu\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/sampleIosTest.js:15:54)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e91712141ac147fd",
+      "name" : "Screenshot",
+      "source" : "e91712141ac147fd.png",
+      "type" : "image/png",
+      "size" : 663305
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ios"
+  }, {
+    "name" : "testClass",
+    "value" : "Ios"
+  }, {
+    "name" : "testMethod",
+    "value" : "test 1"
+  }, {
+    "name" : "package",
+    "value" : "Ios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd620b76b8cdb52e.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

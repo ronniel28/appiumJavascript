@@ -1,0 +1,80 @@
+{
+  "uid" : "c622bf3013178dc",
+  "name" : "get activity",
+  "fullName" : "Testing Activity.get activity",
+  "historyId" : "4ea647c40386b4dc2c0b9e0e6b212eb3",
+  "time" : {
+    "start" : 1654050137791,
+    "stop" : 1654050138468,
+    "duration" : 677
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Wrong parameters applied for startActivity\n                Usage: startActivity(appPackage, appActivity, appWaitPackage, appWaitActivity, intentAction, intentCategory, intentFlags, optionalIntentArguments, dontStopAppOnReset)\n                \n                Property Description:\n                  \"appPackage\" (string): name of app\n                  \"appActivity\" (string): name of activity\n                  \"appWaitPackage\" (string): name of app to wait for\n                  \"appWaitActivity\" (string): name of activity to wait for\n                  \"intentAction\" (string): intent action which will be used to start activity\n                  \"intentCategory\" (string): intent category which will be used to start activity\n                  \"intentFlags\" (string): flags that will be used to start activity\n                  \"optionalIntentArguments\" (string): additional intent arguments that will be used to start activity\n                  \"dontStopAppOnReset\" (string): doesn’t stop the process of the app under test, before starting the app using adb\n                \n                For more info see http://appium.io/docs/en/commands/device/activity/start-activity/\n                ",
+  "statusTrace" : "Error: Wrong parameters applied for startActivity\n                Usage: startActivity(appPackage, appActivity, appWaitPackage, appWaitActivity, intentAction, intentCategory, intentFlags, optionalIntentArguments, dontStopAppOnReset)\n                \n                Property Description:\n                  \"appPackage\" (string): name of app\n                  \"appActivity\" (string): name of activity\n                  \"appWaitPackage\" (string): name of app to wait for\n                  \"appWaitActivity\" (string): name of activity to wait for\n                  \"intentAction\" (string): intent action which will be used to start activity\n                  \"intentCategory\" (string): intent category which will be used to start activity\n                  \"intentFlags\" (string): flags that will be used to start activity\n                  \"optionalIntentArguments\" (string): additional intent arguments that will be used to start activity\n                  \"dontStopAppOnReset\" (string): doesn’t stop the process of the app under test, before starting the app using adb\n                \n                For more info see http://appium.io/docs/en/commands/device/activity/start-activity/\n                \n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Wrong parameters applied for startActivity\n                Usage: startActivity(appPackage, appActivity, appWaitPackage, appWaitActivity, intentAction, intentCategory, intentFlags, optionalIntentArguments, dontStopAppOnReset)\n                \n                Property Description:\n                  \"appPackage\" (string): name of app\n                  \"appActivity\" (string): name of activity\n                  \"appWaitPackage\" (string): name of app to wait for\n                  \"appWaitActivity\" (string): name of activity to wait for\n                  \"intentAction\" (string): intent action which will be used to start activity\n                  \"intentCategory\" (string): intent category which will be used to start activity\n                  \"intentFlags\" (string): flags that will be used to start activity\n                  \"optionalIntentArguments\" (string): additional intent arguments that will be used to start activity\n                  \"dontStopAppOnReset\" (string): doesn’t stop the process of the app under test, before starting the app using adb\n                \n                For more info see http://appium.io/docs/en/commands/device/activity/start-activity/\n                ",
+    "statusTrace" : "Error: Wrong parameters applied for startActivity\n                Usage: startActivity(appPackage, appActivity, appWaitPackage, appWaitActivity, intentAction, intentCategory, intentFlags, optionalIntentArguments, dontStopAppOnReset)\n                \n                Property Description:\n                  \"appPackage\" (string): name of app\n                  \"appActivity\" (string): name of activity\n                  \"appWaitPackage\" (string): name of app to wait for\n                  \"appWaitActivity\" (string): name of activity to wait for\n                  \"intentAction\" (string): intent action which will be used to start activity\n                  \"intentCategory\" (string): intent category which will be used to start activity\n                  \"intentFlags\" (string): flags that will be used to start activity\n                  \"optionalIntentArguments\" (string): additional intent arguments that will be used to start activity\n                  \"dontStopAppOnReset\" (string): doesn’t stop the process of the app under test, before starting the app using adb\n                \n                For more info see http://appium.io/docs/en/commands/device/activity/start-activity/\n                \n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1520215e6fda23a8",
+      "name" : "Screenshot",
+      "source" : "1520215e6fda23a8.png",
+      "type" : "image/png",
+      "size" : 31445
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testMethod",
+    "value" : "get activity"
+  }, {
+    "name" : "package",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c622bf3013178dc.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "f5a8d9839311e3de",
+  "name" : "Log in with Invalid password",
+  "fullName" : "Login Tests.Log in with Invalid password",
+  "historyId" : "23ad2c7de6c5639fe1d4827228d0d61e",
+  "time" : {
+    "start" : 1653747909958,
+    "stop" : 1653747915664,
+    "duration" : 5706
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in with Invalid password"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5a8d9839311e3de.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

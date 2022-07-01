@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653723678316' stop='1653723707270'>
+    <name>Login Tests</name>
+    <title>Login Tests</title>
+    <test-cases>
+        <test-case start='1653723678316' status='failed' stop='1653723707269'>
+            <name>Log In with incomplete mobile number</name>
+            <title>Log In with incomplete mobile number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='85fc27f1-9dfa-4094-a42a-3f2d9529c768-attachment.png' type='image/png' size='2100974'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//android.widget.Toast`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"</message>
+                <stack-trace>Error: Expect $(`//android.widget.Toast`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:114:46)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

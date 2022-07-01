@@ -1,0 +1,82 @@
+{
+  "uid" : "8aad4344479d1c78",
+  "name" : "Log in without credentials",
+  "fullName" : "Login Tests.Log in without credentials",
+  "historyId" : "7e95283d01c40eda12d1fb20ebe69a2",
+  "time" : {
+    "start" : 1653750768086,
+    "stop" : 1653750785729,
+    "duration" : 17643
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41728b58e3f2c7d6",
+      "name" : "Screenshot",
+      "source" : "41728b58e3f2c7d6.png",
+      "type" : "image/png",
+      "size" : 95454
+    }, {
+      "uid" : "e8b7ecf2deaf2971",
+      "name" : "screenshot",
+      "source" : "e8b7ecf2deaf2971.txt",
+      "type" : "text/plain",
+      "size" : 128947
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in without credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8aad4344479d1c78.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

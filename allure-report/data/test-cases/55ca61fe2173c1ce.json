@@ -1,0 +1,60 @@
+{
+  "uid" : "55ca61fe2173c1ce",
+  "name" : "Tapping the mobile field",
+  "fullName" : "Login Tests.Tapping the mobile field",
+  "historyId" : "e6bd00a8c2312be90383bbb0e9cbea99",
+  "time" : {
+    "start" : 1653722925308,
+    "stop" : 1653722928560,
+    "duration" : 3252
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tapping the mobile field"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55ca61fe2173c1ce.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

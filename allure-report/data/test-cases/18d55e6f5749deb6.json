@@ -1,0 +1,60 @@
+{
+  "uid" : "18d55e6f5749deb6",
+  "name" : "Tap Privacy Policy",
+  "fullName" : "Login Tests.Tap Privacy Policy",
+  "historyId" : "d9ef1920a609cf73954787d10fd4123c",
+  "time" : {
+    "start" : 1653722676063,
+    "stop" : 1653722679274,
+    "duration" : 3211
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tap Privacy Policy"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18d55e6f5749deb6.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

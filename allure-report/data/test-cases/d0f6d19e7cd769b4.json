@@ -1,0 +1,60 @@
+{
+  "uid" : "d0f6d19e7cd769b4",
+  "name" : "Tap Terms and Conditions",
+  "fullName" : "Login Tests.Tap Terms and Conditions",
+  "historyId" : "bcc327f95878985b15bedb629ef7ac99",
+  "time" : {
+    "start" : 1653723882844,
+    "stop" : 1653723886685,
+    "duration" : 3841
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tap Terms and Conditions"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0f6d19e7cd769b4.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

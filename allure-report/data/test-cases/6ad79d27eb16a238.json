@@ -1,0 +1,62 @@
+{
+  "uid" : "6ad79d27eb16a238",
+  "name" : "Tap Terms and Conditions",
+  "fullName" : "Login Tests.Tap Terms and Conditions",
+  "historyId" : "bcc327f95878985b15bedb629ef7ac99",
+  "time" : {
+    "start" : 1653723822181,
+    "stop" : 1653723822183,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "A sessionId is required for this command",
+  "statusTrace" : "Error: A sessionId is required for this command\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:72:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tap Terms and Conditions"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ad79d27eb16a238.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

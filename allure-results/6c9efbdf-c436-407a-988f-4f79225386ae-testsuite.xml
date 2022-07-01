@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653875921386' stop='1653875951980'>
+    <name>USER - IOS: Log In Tests</name>
+    <title>USER - IOS: Log In Tests</title>
+    <test-cases>
+        <test-case start='1653875921386' status='failed' stop='1653875951978'>
+            <name>Tapping the mobile field</name>
+            <title>Tapping the mobile field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5056cb4b-533e-40bb-acad-48e4e3c919b8-attachment.png' type='image/png' size='528011'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//*[@value="9XXXXXXXXX"]`) to have property value
+                
+                Expected: "9XXXXXXXXX"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//*[@value="9XXXXXXXXX"]`) to have property value
+                
+                Expected: "9XXXXXXXXX"
+                Received: undefined
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:29:53)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653875951978' status='passed' stop='1653875951979'>
+            <name>Log in with valid credentaials</name>
+            <title>Log in with valid credentaials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

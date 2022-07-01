@@ -1,0 +1,86 @@
+{
+  "uid" : "5995b3cd03ef2296",
+  "name" : "Log In Page UI",
+  "fullName" : "USER - IOS: Log In Tests.Log In Page UI",
+  "historyId" : "4551e1398fb29f2893112b055214c0da",
+  "time" : {
+    "start" : 1653873316237,
+    "stop" : 1653873332402,
+    "duration" : 16165
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71c72d5861ac9651",
+      "name" : "sample",
+      "source" : "71c72d5861ac9651.txt",
+      "type" : "text/plain",
+      "size" : 70
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log In Page UI"
+  }, {
+    "name" : "package",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1361ea9f285d93f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653872594225,
+        "stop" : 1653872615371,
+        "duration" : 21146
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5995b3cd03ef2296.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

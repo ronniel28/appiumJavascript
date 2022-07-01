@@ -1,0 +1,291 @@
+{
+  "uid" : "1df18033128f5844",
+  "name" : "Tapping the mobile field",
+  "fullName" : "USER - IOS: Log In Tests.Tapping the mobile field",
+  "historyId" : "dcfdec9a5aee29fbea0926304dd86784",
+  "time" : {
+    "start" : 1653889926040,
+    "stop" : 1653889956857,
+    "duration" : 30817
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect 9XXXXXXXXX to have text\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect 9XXXXXXXXX to have text\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:32:65)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect 9XXXXXXXXX to have text\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect 9XXXXXXXXX to have text\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:32:65)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a416b5c38d20ba1",
+      "name" : "Screenshot",
+      "source" : "3a416b5c38d20ba1.png",
+      "type" : "image/png",
+      "size" : 720024
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tapping the mobile field"
+  }, {
+    "name" : "package",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5e910a0d7591cad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653889821770,
+        "stop" : 1653889852313,
+        "duration" : 30543
+      }
+    }, {
+      "uid" : "3ba71d699790d7bc",
+      "status" : "failed",
+      "statusDetails" : "Expect 9XXXXXXXXX to have text\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653889712432,
+        "stop" : 1653889743236,
+        "duration" : 30804
+      }
+    }, {
+      "uid" : "bdf04a78a2aa1341",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653889540774,
+        "stop" : 1653889571430,
+        "duration" : 30656
+      }
+    }, {
+      "uid" : "1fb0831885b766b7",
+      "status" : "broken",
+      "statusDetails" : "function is not iterable (cannot read property Symbol(Symbol.iterator))",
+      "time" : {
+        "start" : 1653888936962,
+        "stop" : 1653888957702,
+        "duration" : 20740
+      }
+    }, {
+      "uid" : "52acde2f083cfd07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653888386802,
+        "stop" : 1653888421303,
+        "duration" : 34501
+      }
+    }, {
+      "uid" : "9baf243ce24a815e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653886131093,
+        "stop" : 1653886161753,
+        "duration" : 30660
+      }
+    }, {
+      "uid" : "4bbd2a36405ce9fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653885986878,
+        "stop" : 1653886017388,
+        "duration" : 30510
+      }
+    }, {
+      "uid" : "c7a964c4a204ec03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653885705594,
+        "stop" : 1653885736293,
+        "duration" : 30699
+      }
+    }, {
+      "uid" : "d523a15c9119f312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653882011231,
+        "stop" : 1653882041393,
+        "duration" : 30162
+      }
+    }, {
+      "uid" : "341042bb58d88c01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653881577879,
+        "stop" : 1653881607324,
+        "duration" : 29445
+      }
+    }, {
+      "uid" : "80353fa738ca1cea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653881438159,
+        "stop" : 1653881467671,
+        "duration" : 29512
+      }
+    }, {
+      "uid" : "37c11a56e0f3a168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653881108426,
+        "stop" : 1653881137896,
+        "duration" : 29470
+      }
+    }, {
+      "uid" : "5c336660b72fddb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653881014148,
+        "stop" : 1653881043622,
+        "duration" : 29474
+      }
+    }, {
+      "uid" : "e98de41b4a8fb1e7",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653875921386,
+        "stop" : 1653875951978,
+        "duration" : 30592
+      }
+    }, {
+      "uid" : "5cd820dfe9bf5ebe",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653875807260,
+        "stop" : 1653875838028,
+        "duration" : 30768
+      }
+    }, {
+      "uid" : "f911c0fce7f10582",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653875485577,
+        "stop" : 1653875511376,
+        "duration" : 25799
+      }
+    }, {
+      "uid" : "cfb734750ccbb16e",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653875386814,
+        "stop" : 1653875416439,
+        "duration" : 29625
+      }
+    }, {
+      "uid" : "1ff06cb8ad63a369",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653875227240,
+        "stop" : 1653875256770,
+        "duration" : 29530
+      }
+    }, {
+      "uid" : "5c9e9a8d3b5d79bb",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"9XXXXXXXXX\"`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653875159309,
+        "stop" : 1653875188965,
+        "duration" : 29656
+      }
+    }, {
+      "uid" : "ccdcbcad6ca6477c",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//XCUIElementTypeApplication[@name=\"RiderKo\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653874901389,
+        "stop" : 1653874926186,
+        "duration" : 24797
+      }
+    }, {
+      "uid" : "9b3d4037342c0be2",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//XCUIElementTypeApplication[@name=\"RiderKo\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653874602060,
+        "stop" : 1653874631763,
+        "duration" : 29703
+      }
+    }, {
+      "uid" : "a1ec37de7fcd66cf",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//XCUIElementTypeApplication[@name=\"RiderKo\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653874453680,
+        "stop" : 1653874478484,
+        "duration" : 24804
+      }
+    }, {
+      "uid" : "b874e7f99be4f24c",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//XCUIElementTypeApplication[@name=\"RiderKo\"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653874171314,
+        "stop" : 1653874201025,
+        "duration" : 29711
+      }
+    }, {
+      "uid" : "29947a55cd0c56e",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@value=\"Mobile Number\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653873717341,
+        "stop" : 1653873746928,
+        "duration" : 29587
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1df18033128f5844.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

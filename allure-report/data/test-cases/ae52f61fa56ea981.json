@@ -1,0 +1,80 @@
+{
+  "uid" : "ae52f61fa56ea981",
+  "name" : "Homepage UI Test",
+  "fullName" : "Homepage Tests.Homepage UI Test",
+  "historyId" : "2071f828bbdb20035a73a4eaec97c02d",
+  "time" : {
+    "start" : 1653898256470,
+    "stop" : 1653898281658,
+    "duration" : 25188
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Invalid CSS selector 'androidnew UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"com.riderko.user:id/recycle_deals\"))'. Reason: 'Error: Rule expected but \"(\" found.'",
+  "statusTrace" : "invalid selector: Invalid CSS selector 'androidnew UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"com.riderko.user:id/recycle_deals\"))'. Reason: 'Error: Rule expected but \"(\" found.'\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:31:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Invalid CSS selector 'androidnew UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"com.riderko.user:id/recycle_deals\"))'. Reason: 'Error: Rule expected but \"(\" found.'",
+    "statusTrace" : "invalid selector: Invalid CSS selector 'androidnew UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"com.riderko.user:id/recycle_deals\"))'. Reason: 'Error: Rule expected but \"(\" found.'\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:31:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffbe13bbd54a1a90",
+      "name" : "Screenshot",
+      "source" : "ffbe13bbd54a1a90.png",
+      "type" : "image/png",
+      "size" : 385198
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Homepage UI Test"
+  }, {
+    "name" : "package",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae52f61fa56ea981.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

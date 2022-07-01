@@ -1,0 +1,79 @@
+{
+  "uid" : "b991891b4fd65198",
+  "name" : "Log in with valid credentaials",
+  "fullName" : "Login Tests.Log in with valid credentaials",
+  "historyId" : "86237d5c0d2be06f98b1fdb5912b676",
+  "time" : {
+    "start" : 1653752497585,
+    "stop" : 1653752525742,
+    "duration" : 28157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in with valid credentaials"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6895da60ed6c1f88",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@resource-id=\"com.riderko.user:id/white_logo\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1653752357431,
+        "stop" : 1653752392992,
+        "duration" : 35561
+      }
+    }, {
+      "uid" : "4223e9b987d2d108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653751957819,
+        "stop" : 1653751979658,
+        "duration" : 21839
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b991891b4fd65198.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

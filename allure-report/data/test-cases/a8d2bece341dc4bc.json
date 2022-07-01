@@ -1,0 +1,271 @@
+{
+  "uid" : "a8d2bece341dc4bc",
+  "name" : "test 1",
+  "fullName" : "Ios.test 1",
+  "historyId" : "3f771fb38c1b1168eabef5deb1e400c4",
+  "time" : {
+    "start" : 1653836791700,
+    "stop" : 1653836822473,
+    "duration" : 30773
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 26,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ios"
+  }, {
+    "name" : "testClass",
+    "value" : "Ios"
+  }, {
+    "name" : "testMethod",
+    "value" : "test 1"
+  }, {
+    "name" : "package",
+    "value" : "Ios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b87a944c8b96317f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653836022715,
+        "stop" : 1653836053377,
+        "duration" : 30662
+      }
+    }, {
+      "uid" : "e843ebf20b1d8d7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653835378443,
+        "stop" : 1653835409263,
+        "duration" : 30820
+      }
+    }, {
+      "uid" : "dd620b76b8cdb52e",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@name=\"ic side menu\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1653835292209,
+        "stop" : 1653835323271,
+        "duration" : 31062
+      }
+    }, {
+      "uid" : "c549ea0894222eb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834921727,
+        "stop" : 1653834946053,
+        "duration" : 24326
+      }
+    }, {
+      "uid" : "44a63156500f42a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834660777,
+        "stop" : 1653834684967,
+        "duration" : 24190
+      }
+    }, {
+      "uid" : "2473a245cc9838fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834614857,
+        "stop" : 1653834639040,
+        "duration" : 24183
+      }
+    }, {
+      "uid" : "7b9fbe1ba9b1b99d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834568731,
+        "stop" : 1653834588028,
+        "duration" : 19297
+      }
+    }, {
+      "uid" : "e67f744b5fce309f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834424087,
+        "stop" : 1653834443250,
+        "duration" : 19163
+      }
+    }, {
+      "uid" : "43c18da05b8f0a80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834384679,
+        "stop" : 1653834399391,
+        "duration" : 14712
+      }
+    }, {
+      "uid" : "2fc0b0b8ec348f94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834061189,
+        "stop" : 1653834070488,
+        "duration" : 9299
+      }
+    }, {
+      "uid" : "738e075a412d7243",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653834025712,
+        "stop" : 1653834032242,
+        "duration" : 6530
+      }
+    }, {
+      "uid" : "54fe53517689150b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833712089,
+        "stop" : 1653833719043,
+        "duration" : 6954
+      }
+    }, {
+      "uid" : "6880f62172eb71a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833677838,
+        "stop" : 1653833685011,
+        "duration" : 7173
+      }
+    }, {
+      "uid" : "6f89bf4ce149fdca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833642063,
+        "stop" : 1653833649016,
+        "duration" : 6953
+      }
+    }, {
+      "uid" : "3eb43c45aff66b65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833561333,
+        "stop" : 1653833563377,
+        "duration" : 2044
+      }
+    }, {
+      "uid" : "c157a0017aec00a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833530012,
+        "stop" : 1653833531503,
+        "duration" : 1491
+      }
+    }, {
+      "uid" : "4fe7d017f1e6691b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833245819,
+        "stop" : 1653833256588,
+        "duration" : 10769
+      }
+    }, {
+      "uid" : "f3bb46da42211652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653833193358,
+        "stop" : 1653833194076,
+        "duration" : 718
+      }
+    }, {
+      "uid" : "141eb1b9f1086b17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653832582995,
+        "stop" : 1653832592999,
+        "duration" : 10004
+      }
+    }, {
+      "uid" : "23980db16e26ef51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653832506594,
+        "stop" : 1653832516598,
+        "duration" : 10004
+      }
+    }, {
+      "uid" : "36aa8150bf3bc421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653832248352,
+        "stop" : 1653832258358,
+        "duration" : 10006
+      }
+    }, {
+      "uid" : "2fe15016a3509ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653832221359,
+        "stop" : 1653832231363,
+        "duration" : 10004
+      }
+    }, {
+      "uid" : "b7bd1bef15d5b8f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653832178132,
+        "stop" : 1653832178133,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5722c6fab8fb937f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653831986760,
+        "stop" : 1653831986802,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "3a766289daf96d34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653831951246,
+        "stop" : 1653831951316,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "c1061e5d7b722a89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653828679340,
+        "stop" : 1653828679342,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8d2bece341dc4bc.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653752357431' stop='1653752392992'>
+    <name>Login Tests</name>
+    <title>Login Tests</title>
+    <test-cases>
+        <test-case start='1653752357431' status='failed' stop='1653752392992'>
+            <name>Log in with valid credentaials</name>
+            <title>Log in with valid credentaials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2e09b852-3685-460b-bc29-33865ca53aa9-attachment.png' type='image/png' size='476300'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//*[@resource-id="com.riderko.user:id/white_logo"]`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`//*[@resource-id="com.riderko.user:id/white_logo"]`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:138:45)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

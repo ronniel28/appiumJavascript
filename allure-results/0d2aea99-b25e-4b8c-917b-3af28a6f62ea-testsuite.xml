@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653894655988' stop='1653894656008'>
+    <name>Homepage Tests</name>
+    <title>Homepage Tests</title>
+    <test-cases>
+        <test-case start='1653894655988' status='broken' stop='1653894656007'>
+            <name>"before all" hook for Homepage Tests</name>
+            <title>"before all" hook for Homepage Tests</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource</message>
+                <stack-trace>unknown command: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:7:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

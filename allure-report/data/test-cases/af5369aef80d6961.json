@@ -1,0 +1,80 @@
+{
+  "uid" : "af5369aef80d6961",
+  "name" : "Homepage UI Test",
+  "fullName" : "Homepage Tests.Homepage UI Test",
+  "historyId" : "2071f828bbdb20035a73a4eaec97c02d",
+  "time" : {
+    "start" : 1653896192803,
+    "stop" : 1653896214370,
+    "duration" : 21567
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(\"Discover More\")`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [\"Discover More\"]: Could not parse selector expression `new UiSelector().\"Discover More\"`: No opening parenthesis after method name at position 17",
+  "statusTrace" : "invalid selector: Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(\"Discover More\")`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [\"Discover More\"]: Could not parse selector expression `new UiSelector().\"Discover More\"`: No opening parenthesis after method name at position 17\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:28:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(\"Discover More\")`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [\"Discover More\"]: Could not parse selector expression `new UiSelector().\"Discover More\"`: No opening parenthesis after method name at position 17",
+    "statusTrace" : "invalid selector: Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(\"Discover More\")`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [\"Discover More\"]: Could not parse selector expression `new UiSelector().\"Discover More\"`: No opening parenthesis after method name at position 17\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:28:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de56efdd5301bbf4",
+      "name" : "Screenshot",
+      "source" : "de56efdd5301bbf4.png",
+      "type" : "image/png",
+      "size" : 96363
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Homepage UI Test"
+  }, {
+    "name" : "package",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af5369aef80d6961.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

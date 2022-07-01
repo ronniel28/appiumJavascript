@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653751025359' stop='1653751041766'>
+    <name>Login Tests</name>
+    <title>Login Tests</title>
+    <test-cases>
+        <test-case start='1653751025359' status='passed' stop='1653751041765'>
+            <name>Log in without credentials</name>
+            <title>Log in without credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='99dc11d8-5bf1-4aa3-9d92-729b47efd8f1-attachment.png' type='image/png' size='95442'/>
+                <attachment title='screenshot' source='290bb05d-9ae0-4793-89bf-214685eeb245-attachment.txt' type='text/plain' size='128931'/>
+            </attachments>
+            <description type='text'>Mobile number has no error message</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

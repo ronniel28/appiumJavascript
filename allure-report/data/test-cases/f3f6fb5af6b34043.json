@@ -1,0 +1,62 @@
+{
+  "uid" : "f3f6fb5af6b34043",
+  "name" : "Log In with incomplete mobile number",
+  "fullName" : "Login Tests.Log In with incomplete mobile number",
+  "historyId" : "8038113a15b4842a2f54d5b9f49b227a",
+  "time" : {
+    "start" : 1653723584683,
+    "stop" : 1653723609208,
+    "duration" : 24525
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "write EPIPE",
+  "statusTrace" : "Error: write EPIPE\n                    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n                    at writeGeneric (node:internal/stream_base_commons:151:3)\n                    at Socket._writeGeneric (node:net:823:11)\n                    at Socket._write (node:net:835:8)\n                    at writeOrBuffer (node:internal/streams/writable:390:12)\n                    at _write (node:internal/streams/writable:331:10)\n                    at Socket.Writable.write (node:internal/streams/writable:335:10)\n                    at console.value (node:internal/console/constructor:286:16)\n                    at console.log (node:internal/console/constructor:360:26)\n                    at /Users/ronnielderamos/Documents/RiderKoMobile/node_modules/@wdio/logger/build/node.js:100:9",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log In with incomplete mobile number"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3f6fb5af6b34043.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

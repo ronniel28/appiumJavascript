@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654008227439' stop='1654008240920'>
+    <name>Testing Activity</name>
+    <title>Testing Activity</title>
+    <test-cases>
+        <test-case start='1654008227440' status='passed' stop='1654008240919'>
+            <name>get activity</name>
+            <title>get activity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

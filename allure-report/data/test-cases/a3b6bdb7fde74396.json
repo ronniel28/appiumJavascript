@@ -1,0 +1,62 @@
+{
+  "uid" : "a3b6bdb7fde74396",
+  "name" : "\"before all\" hook for Login Tests",
+  "fullName" : "Login Tests.\"before all\" hook for Login Tests",
+  "historyId" : "4b79e9c7f15e251f4ada3d15b4bd66e2",
+  "time" : {
+    "start" : 1653751771691,
+    "stop" : 1653751782870,
+    "duration" : 11179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//android.widget.ImageView[@resource-id=\"com.riderko.user:id/image_part\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+  "statusTrace" : "Error: Expect $(`//android.widget.ImageView[@resource-id=\"com.riderko.user:id/image_part\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at WelcomePage.swipeToLoginPage (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/android/user/WelcomePage.js:5:102)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:10:27)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Login Tests"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3b6bdb7fde74396.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

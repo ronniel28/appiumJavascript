@@ -1,0 +1,60 @@
+{
+  "uid" : "23708b24875d812d",
+  "name" : "Log in with valid credentaials",
+  "fullName" : "USER - IOS: Log In Tests.Log in with valid credentaials",
+  "historyId" : "e43fca010ff4ad775fcad7f603166edf",
+  "time" : {
+    "start" : 1653881467672,
+    "stop" : 1653881467673,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in with valid credentaials"
+  }, {
+    "name" : "package",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23708b24875d812d.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

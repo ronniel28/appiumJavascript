@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654007932241' stop='1654007937924'>
+    <name>Testing Activity</name>
+    <title>Testing Activity</title>
+    <test-cases>
+        <test-case start='1654007932241' status='broken' stop='1654007937923'>
+            <name>get activity</name>
+            <title>get activity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eb2382b4-70ae-48a6-9e9a-cb7ec373ceee-attachment.png' type='image/png' size='33482'/>
+            </attachments>
+            <failure>
+                <message>Both strategy and selector arguments must be provided</message>
+                <stack-trace>invalid argument: Both strategy and selector arguments must be provided
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at WelcomePage.swipeToLogin (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/ios/user/WelcomePage.js:14:9)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

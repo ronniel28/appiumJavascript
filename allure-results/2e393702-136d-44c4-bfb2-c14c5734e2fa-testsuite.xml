@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653873316237' stop='1653873332404'>
+    <name>USER - IOS: Log In Tests</name>
+    <title>USER - IOS: Log In Tests</title>
+    <test-cases>
+        <test-case start='1653873316237' status='passed' stop='1653873332402'>
+            <name>Log In Page UI</name>
+            <title>Log In Page UI</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='sample' source='dec78e03-ec7c-4af3-b31d-14e2676e5bf8-attachment.txt' type='text/plain' size='70'/>
+            </attachments>
+        </test-case>
+        <test-case start='1653873332403' status='passed' stop='1653873332403'>
+            <name>Log in with valid credentaials</name>
+            <title>Log in with valid credentaials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

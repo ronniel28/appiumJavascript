@@ -1,0 +1,60 @@
+{
+  "uid" : "e843ebf20b1d8d7c",
+  "name" : "test 1",
+  "fullName" : "Ios.test 1",
+  "historyId" : "3f771fb38c1b1168eabef5deb1e400c4",
+  "time" : {
+    "start" : 1653835378443,
+    "stop" : 1653835409263,
+    "duration" : 30820
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ios"
+  }, {
+    "name" : "testClass",
+    "value" : "Ios"
+  }, {
+    "name" : "testMethod",
+    "value" : "test 1"
+  }, {
+    "name" : "package",
+    "value" : "Ios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e843ebf20b1d8d7c.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

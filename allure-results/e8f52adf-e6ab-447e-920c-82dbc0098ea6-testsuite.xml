@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653896192803' stop='1653896214372'>
+    <name>Homepage Tests</name>
+    <title>Homepage Tests</title>
+    <test-cases>
+        <test-case start='1653896192803' status='broken' stop='1653896214370'>
+            <name>Homepage UI Test</name>
+            <title>Homepage UI Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8a707940-4fd2-42df-aaa4-f5799b5246c6-attachment.png' type='image/png' size='96363'/>
+            </attachments>
+            <failure>
+                <message>Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView("Discover More")`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments ["Discover More"]: Could not parse selector expression `new UiSelector()."Discover More"`: No opening parenthesis after method name at position 17</message>
+                <stack-trace>invalid selector: Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView("Discover More")`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments ["Discover More"]: Could not parse selector expression `new UiSelector()."Discover More"`: No opening parenthesis after method name at position 17
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

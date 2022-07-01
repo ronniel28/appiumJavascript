@@ -1,0 +1,62 @@
+{
+  "uid" : "a58bd232a40271dc",
+  "name" : "Tapping Password Field",
+  "fullName" : "Login Tests.Tapping Password Field",
+  "historyId" : "517fddd7363f0f2a75590f636a2e5cd0",
+  "time" : {
+    "start" : 1653723822155,
+    "stop" : 1653723822176,
+    "duration" : 21
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "A session is either terminated or not started",
+  "statusTrace" : "invalid session id: A session is either terminated or not started\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:37:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tapping Password Field"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a58bd232a40271dc.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

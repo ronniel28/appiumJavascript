@@ -1,0 +1,110 @@
+{
+  "uid" : "1ea41509936bd42",
+  "name" : "Log In without mobile number",
+  "fullName" : "Login Tests.Log In without mobile number",
+  "historyId" : "c5c115a739936ab1402e77e679617449",
+  "time" : {
+    "start" : 1653748087467,
+    "stop" : 1653748091878,
+    "duration" : 4411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "issue",
+    "value" : "error message should behave as in the pasword"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log In without mobile number"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ {
+    "name" : "error message should behave as in the pasword",
+    "url" : "error message should behave as in the pasword",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "17c15bd92f8104df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747928705,
+        "stop" : 1653747932120,
+        "duration" : 3415
+      }
+    }, {
+      "uid" : "5509d9a8a7a2ec10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653723904630,
+        "stop" : 1653723908072,
+        "duration" : 3442
+      }
+    }, {
+      "uid" : "64223b2903eb81f7",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1653723822186,
+        "stop" : 1653723822187,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1846396847339c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722962059,
+        "stop" : 1653722965582,
+        "duration" : 3523
+      }
+    }, {
+      "uid" : "60e7cec5f3125771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722699691,
+        "stop" : 1653722704035,
+        "duration" : 4344
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ea41509936bd42.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

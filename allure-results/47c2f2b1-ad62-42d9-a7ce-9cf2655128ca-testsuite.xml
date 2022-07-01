@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654050221916' stop='1654050228768'>
+    <name>Testing Activity</name>
+    <title>Testing Activity</title>
+    <test-cases>
+        <test-case start='1654050221916' status='broken' stop='1654050228768'>
+            <name>get activity</name>
+            <title>get activity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='064ec95d-46f7-41b7-916c-532853ecb9a6-attachment.png' type='image/png' size='2101166'/>
+            </attachments>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s 06870331AA101237 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: Security exception: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=10212, uid=2000) not exported from uid 10305
+                
+                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=10212, uid=2000) not exported from uid 10305
+                	at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1119)
+                	at com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:851)
+                	at com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:629)
+                	at com.android.server.wm.ActivityStarter.startActivityMayWait(ActivityStarter.java:1398)
+                	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:560)
+                	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1373)
+                	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3971)
+                	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:538)
+                	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:174)
+                	at android.os.ShellCommand.exec(ShellCommand.java:104)
+                	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10677)
+                	at android.os.Binder.shellCommand(Binder.java:884)
+                	at android.os.Binder.onTransact(Binder.java:768)
+                	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4842)
+                	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3087)
+                	at android.os.Binder.execTransactInternal(Binder.java:1038)
+                	at android.os.Binder.execTransact(Binder.java:997)
+                </message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s 06870331AA101237 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: Security exception: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=10212, uid=2000) not exported from uid 10305
+                
+                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=10212, uid=2000) not exported from uid 10305
+                	at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1119)
+                	at com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:851)
+                	at com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:629)
+                	at com.android.server.wm.ActivityStarter.startActivityMayWait(ActivityStarter.java:1398)
+                	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:560)
+                	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1373)
+                	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3971)
+                	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:538)
+                	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:174)
+                	at android.os.ShellCommand.exec(ShellCommand.java:104)
+                	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10677)
+                	at android.os.Binder.shellCommand(Binder.java:884)
+                	at android.os.Binder.onTransact(Binder.java:768)
+                	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4842)
+                	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3087)
+                	at android.os.Binder.execTransactInternal(Binder.java:1038)
+                	at android.os.Binder.execTransact(Binder.java:997)
+                
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653874171314' stop='1653874201030'>
+    <name>USER - IOS: Log In Tests</name>
+    <title>USER - IOS: Log In Tests</title>
+    <test-cases>
+        <test-case start='1653874171314' status='failed' stop='1653874201025'>
+            <name>Tapping the mobile field</name>
+            <title>Tapping the mobile field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5492a526-b9bf-4161-b811-38fd06a67f77-attachment.png' type='image/png' size='527460'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//XCUIElementTypeApplication[@name="RiderKo"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField`) to have property value
+                
+                Expected: "9XXXXXXXXX"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//XCUIElementTypeApplication[@name="RiderKo"]/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField`) to have property value
+                
+                Expected: "9XXXXXXXXX"
+                Received: undefined
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:28:45)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653874201026' status='passed' stop='1653874201028'>
+            <name>Log in with valid credentaials</name>
+            <title>Log in with valid credentaials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

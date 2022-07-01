@@ -1,0 +1,80 @@
+{
+  "uid" : "1ff06cb8ad63a369",
+  "name" : "Tapping the mobile field",
+  "fullName" : "USER - IOS: Log In Tests.Tapping the mobile field",
+  "historyId" : "dcfdec9a5aee29fbea0926304dd86784",
+  "time" : {
+    "start" : 1653875227240,
+    "stop" : 1653875256770,
+    "duration" : 29530
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:28:53)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//*[@value=\"9XXXXXXXXX\"]`) to have property value\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:28:53)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1e07e39690f076c",
+      "name" : "Screenshot",
+      "source" : "a1e07e39690f076c.png",
+      "type" : "image/png",
+      "size" : 526900
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tapping the mobile field"
+  }, {
+    "name" : "package",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ff06cb8ad63a369.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

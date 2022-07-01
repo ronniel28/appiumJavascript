@@ -1,0 +1,62 @@
+{
+  "uid" : "e7d25b3e2314113b",
+  "name" : "get activity",
+  "fullName" : "Testing Activity.get activity",
+  "historyId" : "4ea647c40386b4dc2c0b9e0e6b212eb3",
+  "time" : {
+    "start" : 1654011102775,
+    "stop" : 1654011162783,
+    "duration" : 60008
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Testing Activity get activity\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Testing Activity get activity\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js)\n                    at createTimeoutError (/Users/ronnielderamos/Documents/RiderKoMobile/node_modules/mocha/lib/errors.js:498:15)\n                    at Test.Runnable._timeoutError (/Users/ronnielderamos/Documents/RiderKoMobile/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:564:17)\n                    at processTimers (node:internal/timers:507:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testMethod",
+    "value" : "get activity"
+  }, {
+    "name" : "package",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7d25b3e2314113b.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

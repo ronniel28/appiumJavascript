@@ -1,0 +1,60 @@
+{
+  "uid" : "bdf04a78a2aa1341",
+  "name" : "Tapping the mobile field",
+  "fullName" : "USER - IOS: Log In Tests.Tapping the mobile field",
+  "historyId" : "dcfdec9a5aee29fbea0926304dd86784",
+  "time" : {
+    "start" : 1653889540774,
+    "stop" : 1653889571430,
+    "duration" : 30656
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tapping the mobile field"
+  }, {
+    "name" : "package",
+    "value" : "USER - IOS: Log In Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iPhone 12-15.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdf04a78a2aa1341.json",
+  "parameterValues" : [ "iPhone 12-15.2" ]
+}

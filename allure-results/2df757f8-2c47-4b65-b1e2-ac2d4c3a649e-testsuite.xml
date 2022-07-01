@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653897279320' stop='1653897300571'>
+    <name>Homepage Tests</name>
+    <title>Homepage Tests</title>
+    <test-cases>
+        <test-case start='1653897279320' status='failed' stop='1653897300570'>
+            <name>Homepage UI Test</name>
+            <title>Homepage UI Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='08eecbdd-5b47-4e9c-b36e-7e1ee57d9b0f-attachment.png' type='image/png' size='90965'/>
+            </attachments>
+            <failure>
+                <message>Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).flingToEnd()`: `UiScrollable` doesn't have suitable method `flingToEnd` with arguments []: Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).flingToEnd()`: Invalid arguments count. Actual: 0. Expected: 1.</message>
+                <stack-trace>invalid selector: Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).flingToEnd()`: `UiScrollable` doesn't have suitable method `flingToEnd` with arguments []: Could not parse selector expression `new UiScrollable(new UiSelector().scrollable(true)).flingToEnd()`: Invalid arguments count. Actual: 0. Expected: 1.
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:29:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

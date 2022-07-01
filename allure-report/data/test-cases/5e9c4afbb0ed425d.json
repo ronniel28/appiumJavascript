@@ -1,0 +1,168 @@
+{
+  "uid" : "5e9c4afbb0ed425d",
+  "name" : "Log In with incomplete mobile number",
+  "fullName" : "Login Tests.Log In with incomplete mobile number",
+  "historyId" : "8038113a15b4842a2f54d5b9f49b227a",
+  "time" : {
+    "start" : 1653748091879,
+    "stop" : 1653748098049,
+    "duration" : 6170
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log In with incomplete mobile number"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a31b8112440a2fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747932122,
+        "stop" : 1653747946784,
+        "duration" : 14662
+      }
+    }, {
+      "uid" : "4826fb03678c2d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747309121,
+        "stop" : 1653747336032,
+        "duration" : 26911
+      }
+    }, {
+      "uid" : "6567c6c278837bc4",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653723908074,
+        "stop" : 1653723922182,
+        "duration" : 14108
+      }
+    }, {
+      "uid" : "42223a71f283b3c3",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1653723822188,
+        "stop" : 1653723822188,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cae46b976b204229",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653723678316,
+        "stop" : 1653723707269,
+        "duration" : 28953
+      }
+    }, {
+      "uid" : "f3f6fb5af6b34043",
+      "status" : "broken",
+      "statusDetails" : "write EPIPE",
+      "time" : {
+        "start" : 1653723584683,
+        "stop" : 1653723609208,
+        "duration" : 24525
+      }
+    }, {
+      "uid" : "e886665ad84da2dc",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653723426297,
+        "stop" : 1653723451546,
+        "duration" : 25249
+      }
+    }, {
+      "uid" : "f944ea967853fd3b",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653723329522,
+        "stop" : 1653723359685,
+        "duration" : 30163
+      }
+    }, {
+      "uid" : "72388699c0a36e7f",
+      "status" : "broken",
+      "statusDetails" : "write EPIPE",
+      "time" : {
+        "start" : 1653723255345,
+        "stop" : 1653723279981,
+        "duration" : 24636
+      }
+    }, {
+      "uid" : "428a2eef5a617376",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653723190793,
+        "stop" : 1653723221602,
+        "duration" : 30809
+      }
+    }, {
+      "uid" : "3e25a582490e259",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653722965582,
+        "stop" : 1653722979248,
+        "duration" : 13666
+      }
+    }, {
+      "uid" : "465d14f22b64357b",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.Toast`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653722704035,
+        "stop" : 1653722718053,
+        "duration" : 14018
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e9c4afbb0ed425d.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

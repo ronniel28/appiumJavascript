@@ -1,0 +1,103 @@
+{
+  "uid" : "6cc7632284ce0863",
+  "name" : "Typing at password field",
+  "fullName" : "Login Tests.Typing at password field",
+  "historyId" : "8c197a5219c3528e33a028b4a4bf9014",
+  "time" : {
+    "start" : 1653748063952,
+    "stop" : 1653748066180,
+    "duration" : 2228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typing at password field"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "902f74ccb7a4c7d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747897811,
+        "stop" : 1653747899732,
+        "duration" : 1921
+      }
+    }, {
+      "uid" : "c348c0c89f6799d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653723874238,
+        "stop" : 1653723876375,
+        "duration" : 2137
+      }
+    }, {
+      "uid" : "5aaa86d0ffce0e9d",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1653723822178,
+        "stop" : 1653723822179,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b14379a60b154b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722931804,
+        "stop" : 1653722933937,
+        "duration" : 2133
+      }
+    }, {
+      "uid" : "18842a3f0f288103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722670816,
+        "stop" : 1653722672937,
+        "duration" : 2121
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6cc7632284ce0863.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

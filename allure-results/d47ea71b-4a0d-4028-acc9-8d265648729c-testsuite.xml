@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653871720197' stop='1653871721116'>
+    <name>USER - IOS: Log In Tests</name>
+    <title>USER - IOS: Log In Tests</title>
+    <test-cases>
+        <test-case start='1653871720197' status='broken' stop='1653871721115'>
+            <name>"before all" hook for USER - IOS: Log In Tests</name>
+            <title>"before all" hook for USER - IOS: Log In Tests</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at WelcomePage.swipeToLogin (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/ios/user/WelcomePage.js:14:43)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/loginTests.js:6:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

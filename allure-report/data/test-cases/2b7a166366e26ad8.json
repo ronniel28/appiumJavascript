@@ -1,0 +1,113 @@
+{
+  "uid" : "2b7a166366e26ad8",
+  "name" : "\"before all\" hook for Homepage Tests",
+  "fullName" : "Homepage Tests.\"before all\" hook for Homepage Tests",
+  "historyId" : "ba42226d24d112b1e0365ecd52cf79ee",
+  "time" : {
+    "start" : 1653894852697,
+    "stop" : 1653894866547,
+    "duration" : 13850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'addValue')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'addValue')\n                    at LoginPage.login (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/android/user/LoginPage.js:44:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:10:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Homepage Tests"
+  }, {
+    "name" : "package",
+    "value" : "Homepage Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a25ce89f64b2131e",
+      "status" : "broken",
+      "statusDetails" : "The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource",
+      "time" : {
+        "start" : 1653894655988,
+        "stop" : 1653894656007,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "a7a278fdd8f17fdb",
+      "status" : "broken",
+      "statusDetails" : "The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource",
+      "time" : {
+        "start" : 1653894608820,
+        "stop" : 1653894608864,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "2b3237d3bc4b867",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageView[@resource-id=\"com.riderko.user:id/image_part\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653894562840,
+        "stop" : 1653894574355,
+        "duration" : 11515
+      }
+    }, {
+      "uid" : "978853ae308ad2c4",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageView[@resource-id=\"com.riderko.user:id/image_part\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653894498946,
+        "stop" : 1653894510298,
+        "duration" : 11352
+      }
+    }, {
+      "uid" : "75bb3cf613109471",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageView[@resource-id=\"com.riderko.user:id/image_part\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653894278321,
+        "stop" : 1653894289759,
+        "duration" : 11438
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2b7a166366e26ad8.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

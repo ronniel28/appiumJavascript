@@ -1,0 +1,243 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653723793016' stop='1653723822189'>
+    <name>Login Tests</name>
+    <title>Login Tests</title>
+    <test-cases>
+        <test-case start='1653723793017' status='passed' stop='1653723806907'>
+            <name>Log In Page UI</name>
+            <title>Log In Page UI</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653723806909' status='failed' stop='1653723822155'>
+            <name>Tapping the mobile field</name>
+            <title>Tapping the mobile field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//*[@resource-id="com.riderko.user:id/textinput_prefix_text"]`) to have text
+                
+                Expected: "+63"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//*[@resource-id="com.riderko.user:id/textinput_prefix_text"]`) to have text
+                
+                Expected: "+63"
+                Received: undefined
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:30:90)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822155' status='broken' stop='1653723822176'>
+            <name>Tapping Password Field</name>
+            <title>Tapping Password Field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A session is either terminated or not started</message>
+                <stack-trace>invalid session id: A session is either terminated or not started
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:37:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822176' status='broken' stop='1653723822177'>
+            <name>Typing at mobile number field</name>
+            <title>Typing at mobile number field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:45:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822178' status='broken' stop='1653723822179'>
+            <name>Typing at password field</name>
+            <title>Typing at password field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:50:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822179' status='broken' stop='1653723822180'>
+            <name>Tap Forgot Password</name>
+            <title>Tap Forgot Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:56:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822180' status='broken' stop='1653723822181'>
+            <name>Tap Privacy Policy</name>
+            <title>Tap Privacy Policy</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:64:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822181' status='broken' stop='1653723822183'>
+            <name>Tap Terms and Conditions</name>
+            <title>Tap Terms and Conditions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:72:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822183' status='broken' stop='1653723822185'>
+            <name>Log in with Invalid password</name>
+            <title>Log in with Invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:80:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822185' status='broken' stop='1653723822186'>
+            <name>Log In without password</name>
+            <title>Log In without password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:88:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822186' status='broken' stop='1653723822187'>
+            <name>Log In without mobile number</name>
+            <title>Log In without mobile number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='issue' value='error message should behave as in the pasword'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:100:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653723822188' status='broken' stop='1653723822188'>
+            <name>Log In with incomplete mobile number</name>
+            <title>Log In with incomplete mobile number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:109:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,103 @@
+{
+  "uid" : "524489325d3f332f",
+  "name" : "Log in with Invalid password",
+  "fullName" : "Login Tests.Log in with Invalid password",
+  "historyId" : "23ad2c7de6c5639fe1d4827228d0d61e",
+  "time" : {
+    "start" : 1653748075640,
+    "stop" : 1653748081954,
+    "duration" : 6314
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in with Invalid password"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f5a8d9839311e3de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747909958,
+        "stop" : 1653747915664,
+        "duration" : 5706
+      }
+    }, {
+      "uid" : "7e495e205069338d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653723886685,
+        "stop" : 1653723892072,
+        "duration" : 5387
+      }
+    }, {
+      "uid" : "8a36601f4fd211a6",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1653723822183,
+        "stop" : 1653723822185,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1b310bb4f7a13f29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722943159,
+        "stop" : 1653722949346,
+        "duration" : 6187
+      }
+    }, {
+      "uid" : "fb3bc13a0144ddb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722682125,
+        "stop" : 1653722687090,
+        "duration" : 4965
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "524489325d3f332f.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

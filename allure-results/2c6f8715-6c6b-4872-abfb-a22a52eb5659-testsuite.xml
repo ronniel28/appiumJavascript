@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653835292209' stop='1653835323271'>
+    <name>Ios</name>
+    <title>Ios</title>
+    <test-cases>
+        <test-case start='1653835292209' status='failed' stop='1653835323271'>
+            <name>test 1</name>
+            <title>test 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 12-15.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='11eb2041-933f-4438-8ec7-25abe10c54dc-attachment.png' type='image/png' size='663305'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//*[@name="ic side menu"]`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`//*[@name="ic side menu"]`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/ios/user/sampleIosTest.js:15:54)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

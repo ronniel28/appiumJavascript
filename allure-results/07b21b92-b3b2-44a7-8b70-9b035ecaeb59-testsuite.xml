@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654011559084' stop='1654011559783'>
+    <name>Testing Activity</name>
+    <title>Testing Activity</title>
+    <test-cases>
+        <test-case start='1654011559085' status='broken' stop='1654011559782'>
+            <name>get activity</name>
+            <title>get activity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='20b3f350-2d0c-4af8-bca4-c1d50333a6cc-attachment.png' type='image/png' size='32911'/>
+            </attachments>
+            <failure>
+                <message>Wrong parameters applied for startActivity
+                Usage: startActivity(appPackage, appActivity, appWaitPackage, appWaitActivity, intentAction, intentCategory, intentFlags, optionalIntentArguments, dontStopAppOnReset)
+                
+                Property Description:
+                  "appPackage" (string): name of app
+                  "appActivity" (string): name of activity
+                  "appWaitPackage" (string): name of app to wait for
+                  "appWaitActivity" (string): name of activity to wait for
+                  "intentAction" (string): intent action which will be used to start activity
+                  "intentCategory" (string): intent category which will be used to start activity
+                  "intentFlags" (string): flags that will be used to start activity
+                  "optionalIntentArguments" (string): additional intent arguments that will be used to start activity
+                  "dontStopAppOnReset" (string): doesn’t stop the process of the app under test, before starting the app using adb
+                
+                For more info see http://appium.io/docs/en/commands/device/activity/start-activity/
+                </message>
+                <stack-trace>Error: Wrong parameters applied for startActivity
+                Usage: startActivity(appPackage, appActivity, appWaitPackage, appWaitActivity, intentAction, intentCategory, intentFlags, optionalIntentArguments, dontStopAppOnReset)
+                
+                Property Description:
+                  "appPackage" (string): name of app
+                  "appActivity" (string): name of activity
+                  "appWaitPackage" (string): name of app to wait for
+                  "appWaitActivity" (string): name of activity to wait for
+                  "intentAction" (string): intent action which will be used to start activity
+                  "intentCategory" (string): intent category which will be used to start activity
+                  "intentFlags" (string): flags that will be used to start activity
+                  "optionalIntentArguments" (string): additional intent arguments that will be used to start activity
+                  "dontStopAppOnReset" (string): doesn’t stop the process of the app under test, before starting the app using adb
+                
+                For more info see http://appium.io/docs/en/commands/device/activity/start-activity/
+                
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

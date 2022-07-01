@@ -1,0 +1,80 @@
+{
+  "uid" : "c706a6a3b113eb87",
+  "name" : "get activity",
+  "fullName" : "Testing Activity.get activity",
+  "historyId" : "4ea647c40386b4dc2c0b9e0e6b212eb3",
+  "time" : {
+    "start" : 1654007999278,
+    "stop" : 1654008006095,
+    "duration" : 6817
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Both strategy and selector arguments must be provided",
+  "statusTrace" : "invalid argument: Both strategy and selector arguments must be provided\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at WelcomePage.swipeToLogin (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/ios/user/WelcomePage.js:14:9)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Both strategy and selector arguments must be provided",
+    "statusTrace" : "invalid argument: Both strategy and selector arguments must be provided\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n                    at WelcomePage.swipeToLogin (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/ios/user/WelcomePage.js:14:9)\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c29080296ebc45eb",
+      "name" : "Screenshot",
+      "source" : "c29080296ebc45eb.png",
+      "type" : "image/png",
+      "size" : 100244
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testMethod",
+    "value" : "get activity"
+  }, {
+    "name" : "package",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c706a6a3b113eb87.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

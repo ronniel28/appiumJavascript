@@ -1,0 +1,107 @@
+{
+  "uid" : "8cc364c6ea30bdfa",
+  "name" : "Log In without password",
+  "fullName" : "Login Tests.Log In without password",
+  "historyId" : "e1309201d970d55acfb877fe9410d607",
+  "time" : {
+    "start" : 1653748081954,
+    "stop" : 1653748087466,
+    "duration" : 5512
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log In without password"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f229dfd43e543cd",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageButton[@content-desc=\"Error\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1653747915665,
+        "stop" : 1653747928705,
+        "duration" : 13040
+      }
+    }, {
+      "uid" : "eb97b2f46fe6fa45",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageButton[@content-desc=\"Error\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1653723892073,
+        "stop" : 1653723904629,
+        "duration" : 12556
+      }
+    }, {
+      "uid" : "5667db51d58f8af0",
+      "status" : "broken",
+      "statusDetails" : "A sessionId is required for this command",
+      "time" : {
+        "start" : 1653723822185,
+        "stop" : 1653723822186,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "973428559181d3b1",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageButton[@content-desc=\"Error\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1653722949351,
+        "stop" : 1653722962059,
+        "duration" : 12708
+      }
+    }, {
+      "uid" : "d64ca4993f7a04cf",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageButton[@content-desc=\"Error\"]`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1653722687095,
+        "stop" : 1653722699691,
+        "duration" : 12596
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cc364c6ea30bdfa.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

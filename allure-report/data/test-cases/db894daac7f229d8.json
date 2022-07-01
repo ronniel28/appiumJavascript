@@ -1,0 +1,117 @@
+{
+  "uid" : "db894daac7f229d8",
+  "name" : "Log in without credentials",
+  "fullName" : "Login Tests.Log in without credentials",
+  "historyId" : "7e95283d01c40eda12d1fb20ebe69a2",
+  "time" : {
+    "start" : 1653751025359,
+    "stop" : 1653751041765,
+    "duration" : 16406
+  },
+  "description" : "Mobile number has no error message",
+  "descriptionHtml" : "<p>Mobile number has no error message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69df568e9aaa42c2",
+      "name" : "Screenshot",
+      "source" : "69df568e9aaa42c2.png",
+      "type" : "image/png",
+      "size" : 95442
+    }, {
+      "uid" : "35df621583d5ea2a",
+      "name" : "screenshot",
+      "source" : "35df621583d5ea2a.txt",
+      "type" : "text/plain",
+      "size" : 128931
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log in without credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8aad4344479d1c78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653750768086,
+        "stop" : 1653750785729,
+        "duration" : 17643
+      }
+    }, {
+      "uid" : "28ecefa810573ec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653750625355,
+        "stop" : 1653750636746,
+        "duration" : 11391
+      }
+    }, {
+      "uid" : "f40929c69252c8da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653750458830,
+        "stop" : 1653750471025,
+        "duration" : 12195
+      }
+    }, {
+      "uid" : "1f23810529e76613",
+      "status" : "broken",
+      "statusDetails" : "allure is not defined",
+      "time" : {
+        "start" : 1653749900492,
+        "stop" : 1653749912865,
+        "duration" : 12373
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db894daac7f229d8.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

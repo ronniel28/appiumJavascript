@@ -1,0 +1,60 @@
+{
+  "uid" : "16aabe497d84b517",
+  "name" : "get activity",
+  "fullName" : "Testing Activity.get activity",
+  "historyId" : "4ea647c40386b4dc2c0b9e0e6b212eb3",
+  "time" : {
+    "start" : 1654008402644,
+    "stop" : 1654008415367,
+    "duration" : 12723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "testMethod",
+    "value" : "get activity"
+  }, {
+    "name" : "package",
+    "value" : "Testing Activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16aabe497d84b517.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

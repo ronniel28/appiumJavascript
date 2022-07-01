@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654010966368' stop='1654010976849'>
+    <name>Testing Activity</name>
+    <title>Testing Activity</title>
+    <test-cases>
+        <test-case start='1654010966368' status='broken' stop='1654010976848'>
+            <name>get activity</name>
+            <title>get activity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ebbbe7c8-f05d-42e8-bfc3-bac5ddb2dd70-attachment.png' type='image/png' size='2100898'/>
+            </attachments>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.riderko.user.v2.SingUpActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.riderko.user.v2.SingUpActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

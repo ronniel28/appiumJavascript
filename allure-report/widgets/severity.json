@@ -1,0 +1,241 @@
+[ {
+  "uid" : "5995b3cd03ef2296",
+  "name" : "Log In Page UI",
+  "time" : {
+    "start" : 1653873316237,
+    "stop" : 1653873332402,
+    "duration" : 16165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb4d85d22714cb6",
+  "name" : "\"before all\" hook for Login Tests",
+  "time" : {
+    "start" : 1653751885654,
+    "stop" : 1653751896808,
+    "duration" : 11154
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cc364c6ea30bdfa",
+  "name" : "Log In without password",
+  "time" : {
+    "start" : 1653748081954,
+    "stop" : 1653748087466,
+    "duration" : 5512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e1c62dc27802db9",
+  "name" : "Tap Forgot Password",
+  "time" : {
+    "start" : 1653748066180,
+    "stop" : 1653748069385,
+    "duration" : 3205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cc7632284ce0863",
+  "name" : "Typing at password field",
+  "time" : {
+    "start" : 1653748063952,
+    "stop" : 1653748066180,
+    "duration" : 2228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "833d17d7f3a8f528",
+  "name" : "Tapping the mobile field",
+  "time" : {
+    "start" : 1653748057645,
+    "stop" : 1653748060261,
+    "duration" : 2616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29b26567f69b10af",
+  "name" : "Tapping Password Field",
+  "time" : {
+    "start" : 1653748060267,
+    "stop" : 1653748062422,
+    "duration" : 2155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db894daac7f229d8",
+  "name" : "Log in without credentials",
+  "time" : {
+    "start" : 1653751025359,
+    "stop" : 1653751041765,
+    "duration" : 16406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6dd876fc59e7fd1",
+  "name" : "get activity",
+  "time" : {
+    "start" : 1654070843013,
+    "stop" : 1654070844717,
+    "duration" : 1704
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a658b77dab856b74",
+  "name" : "Log in with valid credentaials",
+  "time" : {
+    "start" : 1653889956857,
+    "stop" : 1653889956857,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3651ab788581db61",
+  "name" : "Tap Privacy Policy",
+  "time" : {
+    "start" : 1653748069386,
+    "stop" : 1653748072825,
+    "duration" : 3439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7414de94663a3ec6",
+  "name" : "\"before all\" hook for USER - IOS: Log In Tests",
+  "time" : {
+    "start" : 1653871838443,
+    "stop" : 1653871839269,
+    "duration" : 826
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1df18033128f5844",
+  "name" : "Tapping the mobile field",
+  "time" : {
+    "start" : 1653889926040,
+    "stop" : 1653889956857,
+    "duration" : 30817
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d557ba8176f2a1e1",
+  "name" : "Log In Page UI",
+  "time" : {
+    "start" : 1653748043236,
+    "stop" : 1653748057643,
+    "duration" : 14407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "524489325d3f332f",
+  "name" : "Log in with Invalid password",
+  "time" : {
+    "start" : 1653748075640,
+    "stop" : 1653748081954,
+    "duration" : 6314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7a166366e26ad8",
+  "name" : "\"before all\" hook for Homepage Tests",
+  "time" : {
+    "start" : 1653894852697,
+    "stop" : 1653894866547,
+    "duration" : 13850
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8d6edb8c2ef911b2",
+  "name" : "Homepage UI Test",
+  "time" : {
+    "start" : 1654006993337,
+    "stop" : 1654007000686,
+    "duration" : 7349
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ea41509936bd42",
+  "name" : "Log In without mobile number",
+  "time" : {
+    "start" : 1653748087467,
+    "stop" : 1653748091878,
+    "duration" : 4411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2423d365b19dfa4b",
+  "name" : "get activity",
+  "time" : {
+    "start" : 1654050278606,
+    "stop" : 1654050285414,
+    "duration" : 6808
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e9c4afbb0ed425d",
+  "name" : "Log In with incomplete mobile number",
+  "time" : {
+    "start" : 1653748091879,
+    "stop" : 1653748098049,
+    "duration" : 6170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b991891b4fd65198",
+  "name" : "Log in with valid credentaials",
+  "time" : {
+    "start" : 1653752497585,
+    "stop" : 1653752525742,
+    "duration" : 28157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6c3152afba87d71",
+  "name" : "Typing at mobile number field",
+  "time" : {
+    "start" : 1653748062425,
+    "stop" : 1653748063951,
+    "duration" : 1526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a25ccb7c82db844",
+  "name" : "Tap Terms and Conditions",
+  "time" : {
+    "start" : 1653748072825,
+    "stop" : 1653748075640,
+    "duration" : 2815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8d2bece341dc4bc",
+  "name" : "test 1",
+  "time" : {
+    "start" : 1653836791700,
+    "stop" : 1653836822473,
+    "duration" : 30773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

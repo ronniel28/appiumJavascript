@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653898256470' stop='1653898281659'>
+    <name>Homepage Tests</name>
+    <title>Homepage Tests</title>
+    <test-cases>
+        <test-case start='1653898256470' status='failed' stop='1653898281658'>
+            <name>Homepage UI Test</name>
+            <title>Homepage UI Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e40c1e80-12e7-4ba4-844e-d4a287a00c60-attachment.png' type='image/png' size='385198'/>
+            </attachments>
+            <failure>
+                <message>Invalid CSS selector 'androidnew UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId("com.riderko.user:id/recycle_deals"))'. Reason: 'Error: Rule expected but "(" found.'</message>
+                <stack-trace>invalid selector: Invalid CSS selector 'androidnew UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId("com.riderko.user:id/recycle_deals"))'. Reason: 'Error: Rule expected but "(" found.'
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/homepageTests.js:31:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

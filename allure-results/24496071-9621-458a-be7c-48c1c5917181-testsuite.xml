@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653751771691' stop='1653751782871'>
+    <name>Login Tests</name>
+    <title>Login Tests</title>
+    <test-cases>
+        <test-case start='1653751771691' status='failed' stop='1653751782870'>
+            <name>"before all" hook for Login Tests</name>
+            <title>"before all" hook for Login Tests</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Android Device 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//android.widget.ImageView[@resource-id="com.riderko.user:id/image_part"]`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"</message>
+                <stack-trace>Error: Expect $(`//android.widget.ImageView[@resource-id="com.riderko.user:id/image_part"]`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"
+                    at WelcomePage.swipeToLoginPage (/Users/ronnielderamos/Documents/RiderKoMobile/test/screenobject/android/user/WelcomePage.js:5:102)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:10:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

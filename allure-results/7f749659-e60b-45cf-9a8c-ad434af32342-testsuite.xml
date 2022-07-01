@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654070843013' stop='1654070844718'>
+    <name>Testing Activity</name>
+    <title>Testing Activity</title>
+    <test-cases>
+        <test-case start='1654070843013' status='broken' stop='1654070844717'>
+            <name>get activity</name>
+            <title>get activity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='android 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c60c4773-5568-4650-97f4-8075acfc8c50-attachment.png' type='image/png' size='71490'/>
+            </attachments>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: 
+                Exception occurred while executing 'start':
+                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=8338, uid=2000) not exported from uid 10149
+                	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1047)
+                	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:975)
+                	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:665)
+                	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1441)
+                	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:2935)
+                	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:557)
+                	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:193)
+                	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+                	at android.os.ShellCommand.exec(ShellCommand.java:38)
+                	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:8609)
+                	at android.os.Binder.shellCommand(Binder.java:950)
+                	at android.os.Binder.onTransact(Binder.java:834)
+                	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5106)
+                	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+                	at android.os.Binder.execTransactInternal(Binder.java:1184)
+                	at android.os.Binder.execTransact(Binder.java:1143)
+                </message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: 
+                Exception occurred while executing 'start':
+                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=8338, uid=2000) not exported from uid 10149
+                	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1047)
+                	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:975)
+                	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:665)
+                	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1441)
+                	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:2935)
+                	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:557)
+                	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:193)
+                	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+                	at android.os.ShellCommand.exec(ShellCommand.java:38)
+                	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:8609)
+                	at android.os.Binder.shellCommand(Binder.java:950)
+                	at android.os.Binder.onTransact(Binder.java:834)
+                	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5106)
+                	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)
+                	at android.os.Binder.execTransactInternal(Binder.java:1184)
+                	at android.os.Binder.execTransact(Binder.java:1143)
+                
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/sampleTests.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

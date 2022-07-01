@@ -1,0 +1,62 @@
+{
+  "uid" : "a2c01703bac4c1f0",
+  "name" : "Tapping the mobile field",
+  "fullName" : "Login Tests.Tapping the mobile field",
+  "historyId" : "e6bd00a8c2312be90383bbb0e9cbea99",
+  "time" : {
+    "start" : 1653723806909,
+    "stop" : 1653723822155,
+    "duration" : 15246
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//*[@resource-id=\"com.riderko.user:id/textinput_prefix_text\"]`) to have text\n                \n                Expected: \"+63\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//*[@resource-id=\"com.riderko.user:id/textinput_prefix_text\"]`) to have text\n                \n                Expected: \"+63\"\n                Received: undefined\n                    at Context.<anonymous> (/Users/ronnielderamos/Documents/RiderKoMobile/test/specs/android/user/loginTests.js:30:90)\n                    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Tapping the mobile field"
+  }, {
+    "name" : "package",
+    "value" : "Login Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Android Device 10-10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2c01703bac4c1f0.json",
+  "parameterValues" : [ "Android Device 10-10" ]
+}

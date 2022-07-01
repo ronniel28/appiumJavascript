@@ -1,0 +1,413 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Log In Page UI",
+    "uid" : "d557ba8176f2a1e1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748043236,
+      "stop" : 1653748057643,
+      "duration" : 14407
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Tapping the mobile field",
+    "uid" : "833d17d7f3a8f528",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748057645,
+      "stop" : 1653748060261,
+      "duration" : 2616
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Tapping Password Field",
+    "uid" : "29b26567f69b10af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748060267,
+      "stop" : 1653748062422,
+      "duration" : 2155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Typing at mobile number field",
+    "uid" : "d6c3152afba87d71",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748062425,
+      "stop" : 1653748063951,
+      "duration" : 1526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Typing at password field",
+    "uid" : "6cc7632284ce0863",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748063952,
+      "stop" : 1653748066180,
+      "duration" : 2228
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Tap Forgot Password",
+    "uid" : "3e1c62dc27802db9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748066180,
+      "stop" : 1653748069385,
+      "duration" : 3205
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Tap Privacy Policy",
+    "uid" : "3651ab788581db61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748069386,
+      "stop" : 1653748072825,
+      "duration" : 3439
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Tap Terms and Conditions",
+    "uid" : "3a25ccb7c82db844",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748072825,
+      "stop" : 1653748075640,
+      "duration" : 2815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Log in with Invalid password",
+    "uid" : "524489325d3f332f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748075640,
+      "stop" : 1653748081954,
+      "duration" : 6314
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Log In without password",
+    "uid" : "8cc364c6ea30bdfa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748081954,
+      "stop" : 1653748087466,
+      "duration" : 5512
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Log In without mobile number",
+    "uid" : "1ea41509936bd42",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748087467,
+      "stop" : 1653748091878,
+      "duration" : 4411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Log In with incomplete mobile number",
+    "uid" : "5e9c4afbb0ed425d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653748091879,
+      "stop" : 1653748098049,
+      "duration" : 6170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 12,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Log in without credentials",
+    "uid" : "db894daac7f229d8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653751025359,
+      "stop" : 1653751041765,
+      "duration" : 16406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "\"before all\" hook for Login Tests",
+    "uid" : "deb4d85d22714cb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1653751885654,
+      "stop" : 1653751896808,
+      "duration" : 11154
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Log in with valid credentaials",
+    "uid" : "b991891b4fd65198",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653752497585,
+      "stop" : 1653752525742,
+      "duration" : 28157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "test 1",
+    "uid" : "a8d2bece341dc4bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653836791700,
+      "stop" : 1653836822473,
+      "duration" : 30773
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 26,
+    "retriesStatusChange" : true,
+    "parameters" : [ "iPhone 12-15.2" ]
+  }, {
+    "name" : "\"before all\" hook for USER - IOS: Log In Tests",
+    "uid" : "7414de94663a3ec6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1653871838443,
+      "stop" : 1653871839269,
+      "duration" : 826
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ "iPhone 12-15.2" ]
+  }, {
+    "name" : "Log In Page UI",
+    "uid" : "5995b3cd03ef2296",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653873316237,
+      "stop" : 1653873332402,
+      "duration" : 16165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "iPhone 12-15.2" ]
+  }, {
+    "name" : "Tapping the mobile field",
+    "uid" : "1df18033128f5844",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1653889926040,
+      "stop" : 1653889956857,
+      "duration" : 30817
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ "iPhone 12-15.2" ]
+  }, {
+    "name" : "Log in with valid credentaials",
+    "uid" : "a658b77dab856b74",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653889956857,
+      "stop" : 1653889956857,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : false,
+    "parameters" : [ "iPhone 12-15.2" ]
+  }, {
+    "name" : "\"before all\" hook for Homepage Tests",
+    "uid" : "2b7a166366e26ad8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1653894852697,
+      "stop" : 1653894866547,
+      "duration" : 13850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "Homepage UI Test",
+    "uid" : "8d6edb8c2ef911b2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1654006993337,
+      "stop" : 1654007000686,
+      "duration" : 7349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 21,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "get activity",
+    "uid" : "2423d365b19dfa4b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1654050278606,
+      "stop" : 1654050285414,
+      "duration" : 6808
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Android Device 10-10" ]
+  }, {
+    "name" : "get activity",
+    "uid" : "c6dd876fc59e7fd1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1654070843013,
+      "stop" : 1654070844717,
+      "duration" : 1704
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "android 12-12" ]
+  } ],
+  "name" : "behaviors"
+}

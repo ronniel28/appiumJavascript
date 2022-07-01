@@ -1,0 +1,465 @@
+{
+  "4b79e9c7f15e251f4ada3d15b4bd66e2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "deb4d85d22714cb6",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//android.widget.ImageView[@resource-id=\"com.riderko.user:id/image_part\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1653751885654,
+        "stop" : 1653751896808,
+        "duration" : 11154
+      }
+    } ]
+  },
+  "e6bd00a8c2312be90383bbb0e9cbea99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "833d17d7f3a8f528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748057645,
+        "stop" : 1653748060261,
+        "duration" : 2616
+      }
+    } ]
+  },
+  "4a526b9eecaa12bbccafd924723b8913" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6dd876fc59e7fd1",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: \n                Exception occurred while executing 'start':\n                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=8338, uid=2000) not exported from uid 10149\n                \tat com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1047)\n                \tat com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:975)\n                \tat com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:665)\n                \tat com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1441)\n                \tat com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:2935)\n                \tat com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:557)\n                \tat com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:193)\n                \tat com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)\n                \tat android.os.ShellCommand.exec(ShellCommand.java:38)\n                \tat com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:8609)\n                \tat android.os.Binder.shellCommand(Binder.java:950)\n                \tat android.os.Binder.onTransact(Binder.java:834)\n                \tat android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5106)\n                \tat com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2498)\n                \tat android.os.Binder.execTransactInternal(Binder.java:1184)\n                \tat android.os.Binder.execTransact(Binder.java:1143)\n                ",
+      "time" : {
+        "start" : 1654070843013,
+        "stop" : 1654070844717,
+        "duration" : 1704
+      }
+    } ]
+  },
+  "8038113a15b4842a2f54d5b9f49b227a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e9c4afbb0ed425d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748091879,
+        "stop" : 1653748098049,
+        "duration" : 6170
+      }
+    } ]
+  },
+  "d9ef1920a609cf73954787d10fd4123c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3651ab788581db61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748069386,
+        "stop" : 1653748072825,
+        "duration" : 3439
+      }
+    } ]
+  },
+  "517fddd7363f0f2a75590f636a2e5cd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29b26567f69b10af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748060267,
+        "stop" : 1653748062422,
+        "duration" : 2155
+      }
+    } ]
+  },
+  "443a56e319067e6e10702f2267e55a99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d557ba8176f2a1e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748043236,
+        "stop" : 1653748057643,
+        "duration" : 14407
+      }
+    } ]
+  },
+  "5ff181b6dbfe0ed784835ac3ef0e882a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7414de94663a3ec6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'click')",
+      "time" : {
+        "start" : 1653871838443,
+        "stop" : 1653871839269,
+        "duration" : 826
+      }
+    } ]
+  },
+  "4ea647c40386b4dc2c0b9e0e6b212eb3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2423d365b19dfa4b",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s 06870331AA101237 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: Security exception: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=10487, uid=2000) not exported from uid 10305\n                \n                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=10487, uid=2000) not exported from uid 10305\n                \tat com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1119)\n                \tat com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:851)\n                \tat com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:629)\n                \tat com.android.server.wm.ActivityStarter.startActivityMayWait(ActivityStarter.java:1398)\n                \tat com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:560)\n                \tat com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1373)\n                \tat com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3971)\n                \tat com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:538)\n                \tat com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:174)\n                \tat android.os.ShellCommand.exec(ShellCommand.java:104)\n                \tat com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10677)\n                \tat android.os.Binder.shellCommand(Binder.java:884)\n                \tat android.os.Binder.onTransact(Binder.java:768)\n                \tat android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4842)\n                \tat com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3087)\n                \tat android.os.Binder.execTransactInternal(Binder.java:1038)\n                \tat android.os.Binder.execTransact(Binder.java:997)\n                ",
+      "time" : {
+        "start" : 1654050278606,
+        "stop" : 1654050285414,
+        "duration" : 6808
+      }
+    } ]
+  },
+  "8da57c36f9b34550f5cfd6dee04d9481" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6c3152afba87d71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748062425,
+        "stop" : 1653748063951,
+        "duration" : 1526
+      }
+    } ]
+  },
+  "7e95283d01c40eda12d1fb20ebe69a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db894daac7f229d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653751025359,
+        "stop" : 1653751041765,
+        "duration" : 16406
+      }
+    } ]
+  },
+  "4551e1398fb29f2893112b055214c0da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5995b3cd03ef2296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653873316237,
+        "stop" : 1653873332402,
+        "duration" : 16165
+      }
+    } ]
+  },
+  "3f771fb38c1b1168eabef5deb1e400c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8d2bece341dc4bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653836791700,
+        "stop" : 1653836822473,
+        "duration" : 30773
+      }
+    } ]
+  },
+  "86237d5c0d2be06f98b1fdb5912b676" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b991891b4fd65198",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653752497585,
+        "stop" : 1653752525742,
+        "duration" : 28157
+      }
+    } ]
+  },
+  "8c197a5219c3528e33a028b4a4bf9014" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cc7632284ce0863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748063952,
+        "stop" : 1653748066180,
+        "duration" : 2228
+      }
+    } ]
+  },
+  "e43fca010ff4ad775fcad7f603166edf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a658b77dab856b74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653889956857,
+        "stop" : 1653889956857,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6b39756b0181985fa75b08763997814a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e1c62dc27802db9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748066180,
+        "stop" : 1653748069385,
+        "duration" : 3205
+      }
+    } ]
+  },
+  "ba42226d24d112b1e0365ecd52cf79ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b7a166366e26ad8",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'addValue')",
+      "time" : {
+        "start" : 1653894852697,
+        "stop" : 1653894866547,
+        "duration" : 13850
+      }
+    } ]
+  },
+  "c5c115a739936ab1402e77e679617449" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ea41509936bd42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748087467,
+        "stop" : 1653748091878,
+        "duration" : 4411
+      }
+    } ]
+  },
+  "2071f828bbdb20035a73a4eaec97c02d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d6edb8c2ef911b2",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.riderko.user' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command '/Users/ronnielderamos/Library/Android/sdk/platform-tools/adb -P 5037 -s 06870331AA101237 shell am start -W -n com.riderko.user/com.riderko.user.v2.SignUpActivity -S' exited with code 255'; Command output: Security exception: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=12534, uid=2000) not exported from uid 10304\n                \n                java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.riderko.user/.v2.SignUpActivity } from null (pid=12534, uid=2000) not exported from uid 10304\n                \tat com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1119)\n                \tat com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:851)\n                \tat com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:629)\n                \tat com.android.server.wm.ActivityStarter.startActivityMayWait(ActivityStarter.java:1398)\n                \tat com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:560)\n                \tat com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1373)\n                \tat com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3971)\n                \tat com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:538)\n                \tat com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:174)\n                \tat android.os.ShellCommand.exec(ShellCommand.java:104)\n                \tat com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10677)\n                \tat android.os.Binder.shellCommand(Binder.java:884)\n                \tat android.os.Binder.onTransact(Binder.java:768)\n                \tat android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4842)\n                \tat com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3087)\n                \tat android.os.Binder.execTransactInternal(Binder.java:1038)\n                \tat android.os.Binder.execTransact(Binder.java:997)\n                ",
+      "time" : {
+        "start" : 1654006993337,
+        "stop" : 1654007000686,
+        "duration" : 7349
+      }
+    } ]
+  },
+  "bcc327f95878985b15bedb629ef7ac99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a25ccb7c82db844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748072825,
+        "stop" : 1653748075640,
+        "duration" : 2815
+      }
+    } ]
+  },
+  "e1309201d970d55acfb877fe9410d607" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8cc364c6ea30bdfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748081954,
+        "stop" : 1653748087466,
+        "duration" : 5512
+      }
+    } ]
+  },
+  "dcfdec9a5aee29fbea0926304dd86784" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1df18033128f5844",
+      "status" : "failed",
+      "statusDetails" : "Expect 9XXXXXXXXX to have text\n                \n                Expected: \"9XXXXXXXXX\"\n                Received: undefined",
+      "time" : {
+        "start" : 1653889926040,
+        "stop" : 1653889956857,
+        "duration" : 30817
+      }
+    } ]
+  },
+  "23ad2c7de6c5639fe1d4827228d0d61e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "524489325d3f332f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748075640,
+        "stop" : 1653748081954,
+        "duration" : 6314
+      }
+    } ]
+  }
+}
